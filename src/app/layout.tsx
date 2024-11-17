@@ -22,18 +22,18 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`antialiased ${poppins.className}`}>
-        <header className="h-32 left-0 px-8 right-0 container mx-auto items-center flex">
+        <header className="container left-0 right-0 mx-auto flex h-32 items-center px-8">
           <Image src="/logo.svg" width={200} height={56} alt="Logo OOriginal" />
         </header>
 
-        <main className="mx-auto container px-8">{children}</main>
+        <main className="container mx-auto px-8">{children}</main>
 
-        <p className="text-center mb-4 font-medium">
+        <p className="mb-4 text-center font-medium">
           Desenvolvido por{" "}
           <a
             target="_blank"
             href="https://www.linkedin.com/in/viniciusminotti/"
-            className="text-primary cursor-pointer"
+            className="cursor-pointer text-primary"
           >
             Vinicius Minotti
           </a>
